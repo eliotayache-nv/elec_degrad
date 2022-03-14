@@ -6,3 +6,7 @@ Electron degradation solver project
     python3 -m venv env
     source env/bin/activate
     pip install -r requirements_pip.txt
+
+## Install the right dependencies with conda
+
+    conda create --name <env_name> --file requirements_conda.txt
